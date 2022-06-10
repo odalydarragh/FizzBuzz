@@ -7,7 +7,10 @@ public class Main {
         int userNum = askNum.nextInt();
 
         if ((userNum % 2)== 0)
-            System.out.println("Buzz");
+            if ((userNum % 5)== 0)
+                System.out.println("FizzBuzz");
+            else
+                System.out.println("Buzz");
 
         else if ((userNum % 5) == 0)
             System.out.println("Fizz");
