@@ -6,14 +6,13 @@ public class Main {
         System.out.print("Please enter your number here: ");
         int userNum = askNum.nextInt();
 
-        if (userNum % 2 == 0)
+        if ((userNum % 2)== 0)
             System.out.println("Buzz");
 
-        else if (userNum % 5 == 0)
+        else if ((userNum % 5) == 0)
             System.out.println("Fizz");
 
-        else ((userNum % 5) != 0)
-            System.out.println(userNum);
+        else System.out.println(userNum);
 
 
     }
